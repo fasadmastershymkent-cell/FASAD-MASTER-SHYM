@@ -1,0 +1,5 @@
+# Server secrets only. Never place service credentials in the GitHub site.
+# Supabase supplies SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY automatically.
+OWNER_EMAIL=owner@example.com
+# Exact origin without path or final slash. Example for GitHub Pages:
+ALLOWED_ORIGIN=https://YOUR-USERNAME.github.io
